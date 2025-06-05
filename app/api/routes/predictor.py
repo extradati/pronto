@@ -1,14 +1,14 @@
 import json
 
 import joblib
-from core.config import INPUT_EXAMPLE
+from app.core.config import INPUT_EXAMPLE
 from fastapi import APIRouter, HTTPException
-from models.prediction import (
+from app.models.prediction import (
     HealthResponse,
     MachineLearningDataInput,
     MachineLearningResponse,
 )
-from services.predict import MachineLearningModelHandlerScore as model
+from app.services.predict import MachineLearningModelHandlerScore as model
 
 router = APIRouter()
 
