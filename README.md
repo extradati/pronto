@@ -2,6 +2,8 @@
 
 An application for clients of shoe repairers, dry cleaners, etc. to be notified when their items are ready to be collected
 
+Req: https://excalidraw.com/#json=4EpSN6bxwn6p3xE8VMNEZ,AhAHV29DRaJwflK_DoFrBQ
+
 ## Development Requirements
 
 - Python 3.11+
